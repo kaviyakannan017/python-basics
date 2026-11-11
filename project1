@@ -1,0 +1,93 @@
+# Introduction to AI and Python
+
+print("===== INTRODUCTION TO AI & PYTHON =====")
+
+# 1. Artificial Intelligence
+print("\n1. Artificial Intelligence")
+print("AI makes machines intelligent.")
+
+# 2. Machine Learning
+print("\n2. Machine Learning")
+print("ML helps computers learn from data.")
+
+# 3. Deep Learning
+print("\n3. Deep Learning")
+print("DL uses neural networks to learn.")
+
+# 4. Real World AI Applications
+print("\n4. AI Applications")
+print("1. Healthcare")
+print("2. Education")
+print("3. Banking")
+print("4. Transportation")
+print("5. E-commerce")
+
+# 5. Variables
+print("\n5. Variables")
+name = "Kaviya"
+age = 20
+course = "AI and Python"
+
+print("Name:", name)
+print("Age:", age)
+print("Course:", course)
+
+# 6. Data Types
+print("\n6. Data Types")
+a = 10
+b = 10.5
+c = "Python"
+d = True
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+# 7. If Else
+print("\n7. Even or Odd")
+num = 10
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+# 8. For Loop
+print("\n8. For Loop")
+for i in range(1, 6):
+    print(i)
+
+# 9. While Loop
+print("\n9. While Loop")
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+# 10. Functions
+print("\n10. Functions")
+
+def greet():
+    print("Welcome to Python Programming!")
+
+greet()
+
+# 11. Lists
+print("\n11. Lists")
+subjects = ["Python", "Java", "HTML", "CSS"]
+
+for subject in subjects:
+    print(subject)
+
+# 12. Simple Calculator
+print("\n12. Simple Calculator")
+x = 10
+y = 5
+
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+
+print("\n===== PROGRAM COMPLETED SUCCESSFULLY =====")
